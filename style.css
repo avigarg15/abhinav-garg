@@ -1,0 +1,166 @@
+/********************* SETUP ***********************************************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.6276041666666667vw;
+    text-rendering: optimizeLegibility;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: .25em;
+    word-spacing: .5em;
+    line-height: 150%;
+    color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden
+}
+
+body {
+    background-color: #222;
+    height: 100vh;
+    width: 100vw
+}
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1.953125vw 5vw;
+}
+
+h1 {
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    top: 2vw;
+}
+
+.between {
+    width: 100vw;
+    height: .5vw;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    top: 10vw;
+}
+
+.number {
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 5.208333333333333vw;
+}
+
+/********************* LAYOUT ***********************************************************************************/
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    top: 18vw;
+}
+
+section {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    height: 20.5vw;
+}
+
+
+.guess {
+    border: 0.2604166666666667vw solid white;
+    background-color: transparent;
+    height: 7vw;
+    width: 17vw;
+    position: relative;
+    top: -5vw;
+    left: -5vw;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+main > section:nth-child(2) {
+    position: relative;
+    top: -5vw;
+    line-height: 200%;
+}
+
+/********************* BUTTONS ***********************************************************************************/
+.again,
+.check {
+    padding: 0.6510416666666666vw 1.3020833333333333vw;
+    background-color: white;
+    color: black;
+    font-size: 1.6276041666666667vw;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: .25em;
+    word-spacing: .5em;
+    line-height: 150%;
+}
+
+
+.check {
+    padding: 0.9765625vw 1.953125vw;
+    position: relative;
+    left: -5vw;
+    top: -2vw;
+}
+
+button {
+    cursor: pointer;
+    -webkit-transition: .05s;
+    transition: .05s
+}
+
+button:active {
+    background-color: rgb(159, 159, 159);
+}

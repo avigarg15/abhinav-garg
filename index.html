@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GuessMyNumber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button class="again">Again!</button>
+            <p>&#60;Between 1 and 20&#62;</p>
+        </nav>
+        <h1>Guess My Number!</h1>
+    </header>
+    <div class="between">
+        <div class="number">?</div>
+    </div>
+    <main>
+        <section>
+            <input class="guess" type="number" min="1" max="20">
+            <button class="check">Check!</button>
+        </section>
+        <section>
+            <p class="message">Start guessing...</p>
+            <p>&#x1F4AF;Score: <span class="score">20</span></p>
+            <p>&#x1F3C6;Highscore: <span class="highscore">0</span></p>
+        </section>
+    </main>
+    <script src="resources/js/script.js"></script>
+</body></html>
